@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35013.160
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlogDataLibrary", "BlogDataLibrary\BlogDataLibrary.csproj", "{DD1B7786-B1F6-4603-8467-50C0F8DE4902}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlogDataLibrary", "BlogDataLibrary\BlogDataLibrary.csproj", "{DD1B7786-B1F6-4603-8467-50C0F8DE4902}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlogTestUI", "BlogTestUI\BlogTestUI.csproj", "{1FBF914B-3B6A-426A-8263-B82FCB8894F1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlogTestUI", "BlogTestUI\BlogTestUI.csproj", "{1FBF914B-3B6A-426A-8263-B82FCB8894F1}"
 EndProject
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "DB Project", "DB Project\DB Project.sqlproj", "{B6962A35-7ABE-401D-90B7-AADE2AB91F20}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlogAPI", "BlogAPI\BlogAPI.csproj", "{108B0506-1AAB-483A-95CE-DC767C207D09}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,6 +31,10 @@ Global
 		{B6962A35-7ABE-401D-90B7-AADE2AB91F20}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B6962A35-7ABE-401D-90B7-AADE2AB91F20}.Release|Any CPU.Build.0 = Release|Any CPU
 		{B6962A35-7ABE-401D-90B7-AADE2AB91F20}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{108B0506-1AAB-483A-95CE-DC767C207D09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{108B0506-1AAB-483A-95CE-DC767C207D09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{108B0506-1AAB-483A-95CE-DC767C207D09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{108B0506-1AAB-483A-95CE-DC767C207D09}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

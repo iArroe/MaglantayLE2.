@@ -1,6 +1,6 @@
 ﻿CREATE PROCEDURE [dbo].[spUsers_Authenticate]
-	@username nvarchar(16),
-	@password nvarchar(16)
+	@username nvarchar(50),
+	@password nvarchar(50)
 AS
 begin
 	set nocount on;

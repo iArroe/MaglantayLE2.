@@ -1,8 +1,8 @@
 ﻿CREATE PROCEDURE [dbo].[spUsers_Register]
-	@userName nvarchar(16),
+	@userName nvarchar(50),
 	@firstName nvarchar(50),
 	@lastName nvarchar(50),
-	@password nvarchar(16)
+	@password nvarchar(50)
 AS
 begin
 	set nocount on;
